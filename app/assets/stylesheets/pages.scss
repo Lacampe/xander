@@ -37,3 +37,20 @@
   display: flex;
   align-items: center;
 }
+
+// Media queries
+@media (max-device-width: 420px) {
+  .homepage-container {
+    background-position: initial;
+    justify-content: flex-start;
+    h1 {
+      font-size: 75px;
+    }
+  }
+
+  .socials {
+    a {
+      font-size: 22px;
+    }
+  }
+}
